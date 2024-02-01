@@ -2,7 +2,7 @@
 
 The link to the deployed application is availble here: https://shemlock.github.io/bootstrap-portfolio/
 
-![website](assets/images/landing.png)
+![website](assets/images/landingfull.png)
 
 ## Description
 
