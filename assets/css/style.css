@@ -1,4 +1,6 @@
+
 /* NAVBAR */
+
 .navbar-dark .navbar-nav .nav-link {
     color: white;
     font-size: larger;
@@ -9,7 +11,8 @@
     font-weight: bold;
 }
 
-/* HELLO ANIMATION */
+
+/* JUMBOTRON */
 .lottie-container {
     position: absolute;
     top: 50%;
@@ -43,12 +46,12 @@ h1, h2 {
     color: #ff65bd; 
 }
 
-/* WORK CARD IMAGES */
 .card-img-top {
     transition: transform .3s ease-in-out;
     width: 100%; 
     object-fit: cover;
     object-position: top;
+    height: 300px; 
 }
 
 .card-columns-equal-height .col-md-6 {
@@ -57,7 +60,7 @@ h1, h2 {
 }
 
 .card-columns-equal-height .card {
-    width: 100%;  
+    width: 100%; 
     flex-grow: 1; 
 }
 
@@ -82,14 +85,14 @@ h1, h2 {
     }
 }
 
-/* SKILLS CARDS + CAROUSEL */
+/* SKILLS */
 
 .carousel-card {
     max-width: 300px;
     margin: 0 auto; 
     background-color: rgb(0, 0, 0); 
     color: rgb(255, 255, 255);
-    border-radius: 35px;
+    border-radius: 35px; 
   }
   
   .carousel-card .carousel-card-body {
@@ -98,8 +101,10 @@ h1, h2 {
   
   .carousel-control-prev-icon,
   .carousel-control-next-icon {
+    
     filter: invert(100%); 
   }
+  
   
   .carousel-control-prev:hover,
   .carousel-control-next:hover {
@@ -121,20 +126,21 @@ h1, h2 {
 
 ul.skill-list li::before {
     content: "\f058"; 
-    font-family: "Font Awesome 6 Free";  
+    font-family: "Font Awesome 6 Free"; 
     display: inline-block;
     margin-right: 4px; 
     color: rgb(255, 106, 178); 
 }
 
-/* CONTACT & ABOUT */
+/* CONTACT */
+
 ul.contact-list {
     list-style-type: none; 
-    padding-left: 0;
+    padding-left: 0; 
 }
 
 li.phone-icon, li.email-icon {
-    position: relative;
+    position: relative; 
     padding-left: 30px; 
 }
 
@@ -156,9 +162,10 @@ li.email-icon::before {
 }
 
 /* LINKS */
+
 .link-list {
-    list-style-type: none;
-    padding-left: 0;
+    list-style-type: none; 
+    padding-left: 0; 
 }
 
 .link-list li {
@@ -168,7 +175,7 @@ li.email-icon::before {
 }
 
 .link-list a {
-    text-decoration: underline;
+    text-decoration: underline; 
     color: black; 
 }
 
@@ -177,7 +184,6 @@ li.email-icon::before {
     font-weight: bold; 
 }
 
-/* THE JUMBOTRON */
 .jumbotron img {
     object-fit: cover;
     object-fit: stretch;
