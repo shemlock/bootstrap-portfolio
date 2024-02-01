@@ -154,3 +154,36 @@ li.phone-icon::before {
 li.email-icon::before {
     content: '\f0e0'; 
 }
+
+/* LINKS */
+.link-list {
+    list-style-type: none;
+    padding-left: 0;
+}
+
+.link-list li {
+    display: inline-block; 
+    margin-right: 20px;
+    margin-left: 20px; 
+}
+
+.link-list a {
+    text-decoration: underline;
+    color: black; 
+}
+
+.link-list a:hover {
+    color: #ff65bd;
+    font-weight: bold; 
+}
+
+/* THE JUMBOTRON */
+.jumbotron img {
+    object-fit: cover;
+    object-fit: stretch;
+    max-width: fit-content;
+}
+
+.jumbotron {
+    padding-bottom: 0%;
+}
