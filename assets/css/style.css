@@ -126,3 +126,31 @@ ul.skill-list li::before {
     margin-right: 4px; 
     color: rgb(255, 106, 178); 
 }
+
+/* CONTACT & ABOUT */
+ul.contact-list {
+    list-style-type: none; 
+    padding-left: 0;
+}
+
+li.phone-icon, li.email-icon {
+    position: relative;
+    padding-left: 30px; 
+}
+
+li.phone-icon::before, li.email-icon::before {
+    font-family: 'Font Awesome 5 Free'; 
+    font-weight: 900; 
+    position: absolute;
+    left: 0;
+    top: 0;
+    color: rgb(255, 106, 178);
+}
+
+li.phone-icon::before {
+    content: '\f095'; 
+}
+
+li.email-icon::before {
+    content: '\f0e0'; 
+}
